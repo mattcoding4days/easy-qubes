@@ -61,6 +61,18 @@ $ rm jorts.txt
   <img src="assets/whonix-overview.webp">
 </div>
 
+## Desktop Environment
+
+> The desktop environemtn on Qubes is called [Xfce](https://github.com/mattcoding4days/easy-qubes)
+
+1. Opening the settings manager application
+   * click on the **start menu** in the top left
+   * click on **System Tools**
+   * click on **Settings Manager**
+   * click on **Appearance**
+   * click on **Fonts**
+   * Adjust the **DPI** value `**Custom DPI settings: [92]`
+
 ## Templates
 
 1. Arch linux
@@ -70,6 +82,16 @@ $ rm jorts.txt
 ## 
 
 ### [Qubes Back up system](https://github.com/mattcoding4days/easy-qubes)
+
+> Create the backups
+
+```bash
+# make the directories needed
+$ mkdir -p ~/backup/etc/qubes && mkdir -p ~/backup/etc/qubes-rpc
+
+# copy files from root space into the backup folders you just made
+$ cp -a /etc/qubes/* ~/backup/etc/cubes/ && cp -a /etc/qubes-rpc/* ~/backup/etc/qubes-rpc/
+```
 
 ## Vpn
 
