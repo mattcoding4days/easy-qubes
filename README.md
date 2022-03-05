@@ -69,9 +69,11 @@ $ rm jorts.txt
    * click on the **start menu** in the top left
    * click on **System Tools**
    * click on **Settings Manager**
+
+2. Adjusting the global font size to make your screen more readable
    * click on **Appearance**
    * click on **Fonts**
-   * Adjust the **DPI** value `**Custom DPI settings: [92]`
+   * Adjust the **DPI** value `Custom DPI settings: [92]`
 
 ## Templates
 
