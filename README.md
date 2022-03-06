@@ -6,10 +6,13 @@
 
 ## :warning: Things you should likely not do
 
-1. **DO NOT** enable tor updates for Whonix, as who ever owns the majority of the nodes on TOR
+1. If you are using **Pure Boot** please read these [instructions](https://docs.puri.sm/PureBoot/GettingStarted.html) before
+   continueing 
+   
+2. **DO NOT** enable tor updates for Whonix, as who ever owns the majority of the nodes on TOR
    owns the network.    
    
-2. One issue with Qubes is it only supports one desktop environment officially, which is Xfce.
+3. One issue with Qubes is it only supports one desktop environment officially, which is Xfce.
    There is a KDE implementation but it is not officially supported and therefor we **DO NOT**
    reccomend using it.
 
@@ -75,13 +78,7 @@ $ rm jorts.txt
    * click on **Fonts**
    * Adjust the **DPI** value `Custom DPI settings: [92]`
 
-## Templates
-
-1. Arch linux
-
-## Updates and System management
-
-## 
+## System management
 
 ### [Qubes Back up system](https://github.com/mattcoding4days/easy-qubes)
 
@@ -94,6 +91,17 @@ $ mkdir -p ~/backup/etc/qubes && mkdir -p ~/backup/etc/qubes-rpc
 # copy files from root space into the backup folders you just made
 $ cp -a /etc/qubes/* ~/backup/etc/cubes/ && cp -a /etc/qubes-rpc/* ~/backup/etc/qubes-rpc/
 ```
+
+> After the above commands are executed, follow the [remainder](https://www.qubes-os.org/doc/how-to-back-up-restore-and-migrate/#creating-a-backup) of the qubes back up guide for the rest
+
+### [Updates](https://www.qubes-os.org/doc/how-to-back-up-restore-and-migrate/#creating-a-backup)
+
+> Add the [Qubes security rss news feed](https://www.qubes-os.org/feed.xml) to your favourite RSS feed reader.
+
+
+## Templates
+
+1. Arch linux
 
 ## Vpn
 
