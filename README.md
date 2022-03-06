@@ -56,6 +56,16 @@ $ touch jorts.txt
 $ rm jorts.txt
 ```
 
+## Notable software you should install
+
+1. Brave browser
+2. OnlyDesktop Editors office environment (Microsoft office alternative)
+3. Nuclear music streaming app (Spotify alternative)
+4. RSS feed readers
+   - newsboat (for terminal enthusiasts)
+   - [FeedReader](https://jangernert.github.io/FeedReader/)
+5. 
+
 ## :scroll: Whonix
 
 > Informative blurb about whonix
@@ -102,13 +112,24 @@ $ cp -a /etc/qubes/* ~/backup/etc/cubes/ && cp -a /etc/qubes-rpc/* ~/backup/etc/
 
 ## Templates
 
-1. Arch linux
+> Our template instructions rely on the community driven Arch linux Qubes 4.0 template build.
+
+```bash
+# Update an arch template
+$ sudo pacman -Syu
+```
+
+1. 
 
 ## Vpn
+
+> [Orchid]()
 
 ## Obsidian
 
 ## Customized network programs
+
+* Add kali linux template section
 
 ### Macchanger
 
