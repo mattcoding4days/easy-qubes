@@ -98,6 +98,7 @@ $ cp -a /etc/qubes/* ~/backup/etc/cubes/ && cp -a /etc/qubes-rpc/* ~/backup/etc/
 
 > Add the [Qubes security rss news feed](https://www.qubes-os.org/feed.xml) to your favourite RSS feed reader.
 
+1. Use the Qubes built-in system updater to update Dom0, templates should be updated seperately
 
 ## Templates
 
